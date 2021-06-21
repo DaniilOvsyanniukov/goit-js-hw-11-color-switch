@@ -28,7 +28,7 @@ const buttons = {
             return;
         }
         
-        this.changingOn = true;
+        this.isActive = true;
 
         this.changeBackground = setInterval(() => {
             const randomColor = colors[randomIntegerFromInterval(0, colors.length - 1)];
